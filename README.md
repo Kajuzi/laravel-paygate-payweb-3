@@ -18,10 +18,27 @@ You can install this package via composer using:
 ```bash
 composer require kajuzi/laravel-paygate-payweb-3
 ```
+Add the following variables to your `.env` file and give them correct values for your PayGate account and setup:
+
+``` 
+PAYGATE_ID=
+PAYGATE_SECRET=
+PAYGATE_RETURN_URL=
+PAYGATE_NOTIFY_URL=
+```
+
+Optionally, you may also set:
+
+```
+PAYGATE_CURRENCY
+PAYGATE_COUNTRY
+PAYGATE_LOCALE
+PAYGATE_RETURN_URL
+```
 
 The package will automatically register itself.
 
-To publish the config file to `config/paygate.php` run:
+If you want to publish the config file to `config/paygate.php` run:
 
 ```bash
 php artisan vendor:publish --provider="PWParsons\PayGate\PayGateServiceProvider"

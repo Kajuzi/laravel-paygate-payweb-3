@@ -1,6 +1,6 @@
 {
     "name": "kajuzi/laravel-paygate-payweb-3",
-    "description": "A Laravel package to integrate PayGate's PayWeb3 API.",
+    "description": "PayGate's PayWeb3 integration for Laravel 10+",
     "keywords": [
         "Laravel",
         "paygate",
