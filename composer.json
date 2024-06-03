@@ -1,11 +1,12 @@
 {
-    "name": "kajuzi/paygate",
+    "name": "kajuzi/laravel-paygate-payweb-3",
     "description": "A Laravel package to integrate PayGate's PayWeb3 API.",
     "keywords": [
         "Laravel",
-        "paygate"
+        "paygate",
+        "payweb3"
     ],
-    "homepage": "https://gitlab.com/kajuzi/paygate",
+    "homepage": "https://github.com/kajuzi/laravel-paygate-payweb-3",
     "license": "MIT",
     "authors": [
         {
@@ -20,11 +21,7 @@
         "illuminate/support": "^10.0|^11.0"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.16",
-        "orchestra/testbench": "^5.0",
-        "phpunit/phpunit": "^9.0",
-        "psalm/plugin-laravel": "^1.2",
-        "vimeo/psalm": "^3.11"
+        "phpunit/phpunit": "^9.0"
     },
     "autoload": {
         "psr-4": {
