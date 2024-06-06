@@ -1,4 +1,4 @@
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
 This package is the continuations of the abandoned package, [pwparsons/paygate](https://packagist.org/packages/pwparsons/paygate). It provides an easy way to integrate PayGate's PayWeb3 API with Laravel.
 
@@ -30,10 +30,10 @@ PAYGATE_NOTIFY_URL=
 Optionally, you may also set:
 
 ```
-PAYGATE_CURRENCY
-PAYGATE_COUNTRY
-PAYGATE_LOCALE
-PAYGATE_RETURN_URL
+PAYGATE_CURRENCY=
+PAYGATE_COUNTRY=
+PAYGATE_LOCALE=
+PAYGATE_RETURN_URL=
 ```
 
 The package will automatically register itself.
