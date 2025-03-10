@@ -9,6 +9,7 @@ PayGate's official documentation can be found [here](http://docs.paygate.co.za/#
 
 | Package Version | Laravel      | PHP  |
 |-----------------|--------------|------|
+|    **0.0.2**    | 10.0+        | 8.2+ |
 |    **0.0.1**    | 10.0+        | 8.2+ |
 
 ## Installation
