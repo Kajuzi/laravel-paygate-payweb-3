@@ -6,12 +6,17 @@
         "paygate",
         "payweb3"
     ],
-    "homepage": "https://github.com/kajuzi/laravel-paygate-payweb-3",
+    "version": "0.0.2",
+    "homepage": "https://gitlab.com/kajuzi_foss/laravel-paygate-payweb-3",
     "license": "MIT",
     "authors": [
         {
             "name": "Kajuzi Digital",
             "email": "dns@kajuzi.co.za"
+        },
+        {
+            "name": "Peter Parsons",
+            "email": "peterw.parsons@gmail.com"
         }
     ],
     "require": {
